@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.1rem;
+  }
+
+  .outerbox {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right,
+        rgb(149, 142, 188),
+        rgb(33, 1, 210));
+  }
+
+  .innerbox {
+    width: 30vw;
+    /* background-color: #ffffff99; */
+    background: rgb(164, 157, 209);
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 20px;
+    border-radius: 8px;
+    z-index: 2;
+    box-shadow: 5px 5px 10px rgb(149, 142, 188);
+  }
+
+  .innerbox header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0px 10px;
+  }
+
+  .innerbox header p {
+    margin: 15px 0px;
+    text-align: center;
+    color: #555;
+  }
+
+  .innerbox main label {
+    display: block;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+
+  .innerbox main input {
+    width: 100%;
+    padding: 8px 15px;
+    background: #fffcfc;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .innerbox main input[type="submit"],
+  input[type="reset"] {
+    margin: 10px 0px;
+    border: none;
+    background-color: rgb(149, 82, 244);
+    font-weight: bold;
+    border-radius: 5px;
+    margin-block: 10px;
+    transition: 0.15s;
+  }
+
+  .innerbox main input[type="submit"]:hover {
+    background-color: plum;
+    cursor: pointer;
+  }
+
+  .innerbox main input[type="reset"]:hover {
+    background-color: plum;
+    cursor: pointer;
+  }
+
+  .innerbox footer p {
+    text-align: center;
+  }
+
+  .innerbox footer p a {
+    color: rgb(173, 79, 235);
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom right,
+        rgb(165, 160, 210),
+        rgb(87, 42, 123));
+    position: absolute;
+  }
+
+  .c1 {
+    top: 100px;
+    left: 80px;
+  }
+
+  .c2 {
+    bottom: 100px;
+    right: 80px;
+  }

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: c;
+    background-color: white;
+    max-width: 1340px;
+}
+
+.company-logo img {
+    width: 106px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.login {
+    max-width: 440px;
+    margin: 10px auto;
+}
+
+.login h2 {
+    text-align: center;
+
+}
+
+.login-box{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+
+.login-box p {
+    margin: 20px 0px;
+    color: black;
+}
+
+.login-box label {
+    font-size: 17px;
+}
+
+.login-box input{
+    width: 100%;
+    border: 1px solid #6b7280;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.login-box input[type='submit']{
+    border: none;
+    border-radius: 6px;
+    background-color: #3f83f8;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.login-box input[type='submit']:hover{
+    background-color: #2273fd;
+}
+
+.login-box input[type='submit']:active{
+    background-color: #0b64fe;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: underline;
+}

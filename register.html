@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login System</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+
+<body>
+  <div class="outerbox">
+    <div class="innerbox">
+      <header>
+        <h1>Signup</h1>
+        <p>It only takes 2 minutes</p>
+      </header>
+      <form action="/register" method="post">
+        <main>
+          <p>
+            <label for="fname">Enter Name</label>
+            <input type="text" name="fname" id="fname" placeholder="Enter Your Name" required />
+          </p>
+          <p>
+            <label for="lname">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Your Username" required />
+          </p>
+          <p>
+            <label for="email">Your Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required />
+          </p>
+          <p>
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd" placeholder="Atleast 8 characters" required />
+          </p>
+          <p>
+            <input type="submit" name="submit" id="submit" value="SUBMIT" />
+            <input type="reset" name="reset" id="submit" value="RESET" />
+          </p>
+        </main>
+      </form>
+      <footer>
+        <p>Already have an account? <a href="/login">Login</a></p>
+      </footer>
+    </div>
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+  </div>
+</body>
+
+</html>
