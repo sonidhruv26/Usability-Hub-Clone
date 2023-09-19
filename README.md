@@ -23,11 +23,8 @@ This project is a simplified clone of Usability Hub, a platform for usability te
 ## Usage
 
 1. Navigate to the homepage.
-2. Create a new task by providing a title, description, and task requirements.
-3. Users can register/login to the platform.
-4. Users can perform usability tasks and provide feedback.
-5. View analytics and insights in the dashboard.
-
+2. Users can register/login to the platform.
+   
 ## Contributing
 
 If you'd like to contribute to this project, please follow these steps:
