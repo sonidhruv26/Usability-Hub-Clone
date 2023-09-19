@@ -42,7 +42,3 @@ If you'd like to contribute to this project, please follow these steps:
 
 - This project is inspired by the features and design of Usability Hub (https://usabilityhub.com).
 - Special thanks to the open-source community for their valuable contributions.
-
----
-
-Feel free to customize the content and structure of the README file according to your specific project requirements and details.
