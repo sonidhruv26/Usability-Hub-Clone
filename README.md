@@ -20,6 +20,8 @@ This project is a simplified clone of Usability Hub, a platform for usability te
 1. Clone the repository: `git clone https://github.com/your-username/usability-hub-clone.git`
 2. Open `index.html` in your preferred web browser to access the application.
 
+Or You can visit the live website: Usability Hub Clone (https://sonidhruv26.github.io/Usability-Hub-Clone
+
 ## Usage
 
 1. Navigate to the homepage.
